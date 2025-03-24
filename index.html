@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dashboard</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+                <div class="position-sticky">
+                    <h2 class="text-white text-center py-3">HYBRID</h2>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-layer-group"></i> UI Elements</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-chart-bar"></i> Charts</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-th"></i> Tabs & Panels</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-table"></i> Responsive Tables</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-file-alt"></i> Forms</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-folder"></i> Multi-Level Dropdown</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fas fa-file"></i> Empty Page</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h1 class="mt-4">Dashboard <small class="text-muted">Summary of your App</small></h1>
+
+                <!-- Dashboard Cards -->
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <div class="card text-center border-success">
+                            <div class="card-body">
+                                <i class="fas fa-eye text-success fa-2x"></i>
+                                <h3 class="mt-2">8,457</h3>
+                                <p class="text-muted">Daily Visits</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-primary">
+                            <div class="card-body">
+                                <i class="fas fa-shopping-cart text-primary fa-2x"></i>
+                                <h3 class="mt-2">52,160</h3>
+                                <p class="text-muted">Sales</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-warning">
+                            <div class="card-body">
+                                <i class="fas fa-comments text-warning fa-2x"></i>
+                                <h3 class="mt-2">15,823</h3>
+                                <p class="text-muted">Comments</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-danger">
+                            <div class="card-body">
+                                <i class="fas fa-users text-danger fa-2x"></i>
+                                <h3 class="mt-2">36,752</h3>
+                                <p class="text-muted">No. of Visits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
